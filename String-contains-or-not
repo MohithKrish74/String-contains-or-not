@@ -1,0 +1,26 @@
+package com.company;
+
+import java.util.*;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner in=new Scanner(System.in);
+        System.out.print("Enter the String 1: ");
+        String string1=in.nextLine();
+        System.out.print("Enter the String 2: ");
+        String string2=in.nextLine();
+        if(string1.contains(string2))
+            System.out.print("String1 contains String2");
+        else
+            System.out.print("String1 does not contains String2");
+    }
+}
+
+
+
+
+
+
+
